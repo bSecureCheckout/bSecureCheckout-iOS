@@ -1,0 +1,127 @@
+{
+    "phone": {
+        "powerby": "Powered by",
+        "bSecure": "bSecure",
+        "phn": "Phone",
+        "number": "Your Number",
+        "desc": "Enter your phone number to login",
+        "initCode": "+92",
+        "btnTitle": "Next",
+		"textFieldPlaceHolder": "Phone Number"
+	},
+	"otp": {
+		"title": "OTP",
+		"resend": "Resend",
+		"desc": "A text has been sent to your number +92 $phone",
+		"back": "Back",
+		"next": "Next"
+	},
+	"baseContainer": {
+		"address": "Address",
+		"ship": "Shipping",
+		"payment": "Payment",
+		"checkout": "Cart",
+		"processingTitle": "Processing",
+		"processingDescription": "Your payment is being processed, you may be redirected to a 3rd party to enter your OTP pin."
+	},
+	"address": {
+		"title": "Your Address",
+		"desc": "Enter your shipping address below",
+		"name_placeholder": "Full Name", 
+		"email_placeholder": "Email",
+		"country_placeholder": "Country",
+		"province_placeholder": "Province",
+		"city_placeholder": "City",
+		"area_placeholder": "Area",
+		"address_placeholder": "Address (Minimum 5 characters)",
+		"btn_back": "Back",
+		"btn_next": "Next",
+		"text_optional": "Optional",
+		"email_error": "Incorrect Email",
+		"province_error": "Please select country first",
+		"city_error": "Please select province first",
+		"area_error": "Please select city first",
+		"default": "Set as Default Address"
+	},
+	"shipment": {
+		"title": "Shipping Type",
+		"desc": "Select preferred mode of shipment"
+	},
+	"payment": {
+		"title": "Payment Type",
+		"desc": "Select preferred mode of payment",
+		"default": "Set as default",
+		"placeholder": "Card Name"
+	},
+	"general_purpose": {
+		"yes": "YES",
+		"no": "CANCEL",
+		"default": "Are you sure you want to mark it as default payment method?",
+		"delete": "Are you sure you want to delete?",
+		"address_delete": "Are you sure you want to delete?"
+	},
+	"cart": {
+		"title": "Almost Done",
+		"desc": "Please review your order details",
+		"edit": "EDIT",
+		"cvvDigitError": "This field should be equal to 3 or 4 digits",
+		"total": "Total",
+		"terms": "By completing your order you agree to abide by bSecure’s Terms & Conditions",
+		"btn_title": "Buy Now",
+		"addressTitle": "Delivery address",
+		"shippingTitle": "Shipping Method",
+		"paymentTitle": "Payment",
+		"qtyTitle": "QTY",
+		"subtotal": "Subtotal",
+		"shipping": "Shipping",
+		"discount": "Discount",
+		"termsScreenTitle": "Terms & Conditions",
+		"termsDesc": "We’re constantly developing new technologies and features to improve our services. For example, we invest in artificial intelligence that uses machine learning to detect and block spam and malware, and to provide you with innovative features like simultaneous translations. As part of this continual improvement, we sometimes add or remove features and functionalities, increase or decrease limits to our services, and start offering new services or stop offering old ones. \nIf we make material changes that negatively impact your use of our services or if we stop offering a service, we’ll provide you with reasonable advance notice and an opportunity to export your content from your bSecure Account using bSecure Checkout, except in urgent situations such as preventing abuse, responding to legal requirements or addressing security and operability issues.",
+		"tnc_hyperlink_text": "Terms & Conditions",
+		"cnic": "As per the requirements of Government of Pakistan, Please enter your National identity card number above",
+		"invalidCnic": "The cnic is invalid"
+	},
+	"successScreen": {
+		"title": "Success",
+		"bottomTitle": "Please verify your account for faster order processing next time",
+		"btnVerify": "Verify Your Account",
+		"btnReturn": "Return to Your Company",
+		"exitToMerchant": "Return To"
+	},
+	"edit_address": { 
+		"title": "Edit Address",
+		"desc": "Select preferred mode of delivery",
+		"btnSave": "Save",
+		"btnCancel": "Cancel"
+	},
+	"errorScreen": {
+		"oops": "Oops",
+		"error": "Error",
+		"btnBack": "Go Back"
+	},
+	"ontTapLogin": {
+		"screenTitle": "One-Tap Login",
+		"title": "Guest",
+		"guest": "Continue as Guest",
+		"notGuest": "Not Guest"
+	},
+	"permissionPopup": {
+		"title": "Continue with",
+		"desc": "will receive the following information:",
+		"header": "SEE WHAT YOU ALLOW",
+		"name": "YOUR NAME",
+		"info": "This website doesn’t recieve your payment details",
+		"phone": "YOUR PHONE NUMBER",
+		"address": "YOUR ADDRESS",
+		"allow": "Allow",
+		"cancel": "Cancel"
+	},
+	"checkoutFailureScreen": {
+		"titleFaliure": "Failure",
+		"failureDesc": "Your payment was unsuccessful, try again with some other method",
+		"numberOfTries": "Out of tries",
+		"triesDesc": "Your payment was not successful and you will be redirected back to the store",
+		"cancel": "Cancel",
+		"retry": "Retry"
+	}
+}

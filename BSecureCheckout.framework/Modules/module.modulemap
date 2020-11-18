@@ -1,0 +1,11 @@
+framework module BSecureCheckout {
+  umbrella header "BSecureCheckout.h"
+
+  export *
+  module * { export * }
+}
+
+module BSecureCheckout.Swift {
+    header "BSecureCheckout-Swift.h"
+    requires objc
+}
