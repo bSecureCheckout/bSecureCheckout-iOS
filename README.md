@@ -37,7 +37,6 @@ By following a few simple steps, you can set up your **bSecure Checkout** and **
 4.  Once you have acquired a order reference number you can call ``BSecureManager.shared.initialize(viewController: UIViewController, googleMapKey: String, orderRef: String, delegate: BSecureCheckout.BSecureManagerDelegate)``
 
 -  `UIViewController` - make sure you are calling this function on a `UIViewController` and not anyother like UINavigation or Tabbar Controller. All others will not allow SDK to start because of the `precondition`.
-- `googleMapKey` - enter the Google Map Key you have obtained from you Google Console.
 - `orderRef` - this is the order reference String obtained when you hit create order on bSecure Server.
 - `BSecureCheckout.BSecureManagerDelegate` - confirm to this delegate to catch when the SDK opens and closes and also to montior any abrupt crashes or errors.
 
