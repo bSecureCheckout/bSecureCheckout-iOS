@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		L5R0gkYlr6SYnkcKhn5pk6N3EEM=
+		47+MC6ayqDz+FaSs+DgJJtYLkKo=
 		</data>
 		<key>BSecureTextField.nib</key>
 		<data>
-		LftYXs/DLKVpsKRlOA1s04ldb7Y=
+		iyPILLRRb1yfidTR62qS9X7G2gM=
 		</data>
 		<key>Headers/BSecureCheckout-Swift.h</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3uhqwKQIspXiLXXZo6Hp+BXzB9w=
+		SPV5ScfLi9lpVtGyonUImt41JI0=
 		</data>
 		<key>Localised.json</key>
 		<data>
 		nQwYxzMJVpnQmQQFhBEFa23jzwI=
 		</data>
-		<key>Modules/BSecureCheckout.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/BSecureCheckout.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		VxGBQYDsJ/UyGAXBwjpQLjj16tQ=
+		2X2IxsDIPaA8XI9W7GpL/bZsX6g=
 		</data>
-		<key>Modules/BSecureCheckout.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/BSecureCheckout.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		gbhKHgHaXbkVtJmxUCFv3Mx/CO0=
+		91MO0YSLsxivBsK+jliRsYNw594=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>SplashViewController.nib</key>
 		<data>
-		7fs/jVIqs7CPXipb4AnyJyhvc4I=
+		Sm406OOMSTDgMVIN5OkuiC+KjSY=
 		</data>
 		<key>WebViewController.nib</key>
 		<data>
-		p241we2jtvQ7mf0lv4FUORk1g7w=
+		fcbqfukpaOnF+J4sRHfPvKqLOrA=
 		</data>
 		<key>bSecureProcessingGIF.gif</key>
 		<data>
@@ -67,14 +67,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			loVPVokPPVqbM/2Rra66CLPod+xgamXUaS7nWzWPXws=
+			50X0KmQay3T7oi1E6L1yTXfcS67EGoP5zV3EpIu48Q0=
 			</data>
 		</dict>
 		<key>BSecureTextField.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rk1b9pNkZJ2uyTrkSMn4jp5yyA7K/mx/B5PoF1oH7W0=
+			tibU9zp1LKKAau/cKrBHu0JabYGXF/L18PzUA3s4fK8=
 			</data>
 		</dict>
 		<key>Headers/BSecureCheckout-Swift.h</key>
@@ -98,18 +98,18 @@
 			Yj+4xJbNa0PbyoFRbH8gxbojuhZ8ghTUxt/gY9wEClo=
 			</data>
 		</dict>
-		<key>Modules/BSecureCheckout.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/BSecureCheckout.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6jVulKixGNVNkKkAinjgjDzYlri3bIyHJbnfGII5cUE=
+			J9gyzWz8TXAI0g88iYz9uXWBdCB0TXJweD10AIAv7gc=
 			</data>
 		</dict>
-		<key>Modules/BSecureCheckout.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/BSecureCheckout.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QFhq+v5ZsXuB0y1ZT09a5FG0BfC/mmMwdJH8k4ZvZLU=
+			LtHRWjwqt4AvfGdJ/UMQjEkCL6nvPZncRUKIQrPhdgw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -123,14 +123,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IF9ZsrSmd7rnwyN4w++SRUxtpPgELibXaXRy7C0x/8k=
+			gUMk+2gPzQjSKRCgOPZ9atQdwBvaE5cn+DsdFjgmU74=
 			</data>
 		</dict>
 		<key>WebViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OdBDhEi+JiEotmFFi41Rjge+bkdmoKwN4z/1k+J+KKs=
+			b0rzLigGUTlgMQiCCudXwTP1qN8mbDqadBUrIdKoT88=
 			</data>
 		</dict>
 		<key>bSecureProcessingGIF.gif</key>
