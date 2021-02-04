@@ -33,6 +33,8 @@ Pod::Spec.new do |s|
   s.dependency "GoogleMaps","~> 3.10.0"
   s.dependency "SwiftyGif","~> 5.3.0"
   s.swift_version = "5"
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.ios.vendored_frameworks = 'BSecureCheckout.framework'
   s.source            = { :git => "https://github.com/bSecureCheckout/bSecureCheckout-iOS.git", :tag => "#{s.version}" }
   s.exclude_files = "Classes/Exclude"
