@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BSecureCheckout"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "bSecure is a universal checkout made for the Pakistan market that is easy & simple to install on any iOS app."
   s.description  = <<-DESC
   bSecure is a universal checkout made for the Pakistan market that is easy & simple to install on any iOS app. It gives you an option to enable one-step check out and accept multiple payment method for your customers, as well as run your business hassle free\n. By following a few simple steps, you can be up and running in no time. Leave the rest to us. We will take care of the login, address, shipping methods and payments on your behalf. All you have to do is configure your checkout once on the bSecure Partner portal once and leave the rest to us.
