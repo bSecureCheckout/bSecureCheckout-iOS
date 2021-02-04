@@ -9,10 +9,6 @@
 
 The bSecure iOS SDK requires Xcode 11.0 with Swift 5 or later and is compatible with apps targeting iOS 11 or above.
 
-## Prerequisites 
-- Make sure to add ``Privacy - Location When In Use Usage Description`` and ``Privacy - Location Always and When In Use Usage Description`` in info.plist of your app. This is becuase bSecure has a feature to add addresses thorugh your current location.
-- You will need to have a Google map key too for the address feature.
-
 ## Usage
 
 ### Configuration Setup
@@ -33,11 +29,13 @@ By following a few simple steps, you can set up your **bSecure Checkout** and **
 ### bSecure Checkout 
 1. Add ``pod 'BSecureCheckout`` in your podfile and run ``pod install``.
 2. Once your user is ready for checkout (presses the checkout with bSecure button) call your custom integration bSecure create order API-request.
-3. In the response of this api, you will get the `order_reference` number which is required to launch the SDK.
-4.  Once you have acquired a order reference number you can call ``BSecureManager.shared.initialize(viewController: UIViewController, googleMapKey: String, orderRef: String, delegate: BSecureCheckout.BSecureManagerDelegate)``
+3. In the response of this api, you will get the `order_reference` number, `order_refe` which is required to launch the SDK.
+4.  Once you have acquired a order reference number you can call ``BSecureManager.shared.initialize(viewController: UIViewController, orderCheckoutURL: String, orderReference: String, redirectURL: String, delegate: BSecureManagerDelegate)``
 
 -  `UIViewController` - make sure you are calling this function on a `UIViewController` and not anyother like UINavigation or Tabbar Controller. All others will not allow SDK to start because of the `precondition`.
-- `orderRef` - this is the order reference String obtained when you hit create order on bSecure Server.
+- `orderCheckoutURL` - this is the checkout URL which will initiate the SDK.
+- `redirectURL` - this is the riderect URL which is used to compare URL domain and exit SDK.
+- `orderReference` - this is the order reference String obtained when you hit create order on bSecure Server.
 - `BSecureCheckout.BSecureManagerDelegate` - confirm to this delegate to catch when the SDK opens and closes and also to montior any abrupt crashes or errors.
 
 ### bSecure Checkout Post Payment
